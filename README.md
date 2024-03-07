@@ -29,7 +29,7 @@ DELAY_BETWEEN_WALLETS = [60, 180] # Задержка между аккаутам
 # Для полного выполнения квеста останется:
 
 ## 2 задание: 
-Свапаем ETH-WETH на [свапалку](https://swap.dodoex.io/Gamic) ≈ $ 0.5
+Свапаем копейки ETH-WETH на [свапалке](https://swap.dodoex.io/Gamic) ≈ $ 0.5
 
 ## 7 задание: 
 Переходим на сайт [socialscan](https://socialscan.io/campaign/linea-park)

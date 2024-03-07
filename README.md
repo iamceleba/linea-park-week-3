@@ -4,11 +4,11 @@
 
 После его выполнения останется подтвердить выполнение таких заданий:
 
-1. (1 задание) Send Email from Linea    ≈ $ 0.35
-2. (3 задание) AsMatch                  ≈ $ 3
-3. (4 задание) BitAvatar                ≈ $ 0.15
-4. (5 задание) ReadON                   ≈ $ 20
-5. (6 задание) Linea Park - SendingMe   ≈ $ 0.23
+1. Send Email from Linea    ≈ $ 0.35   -  (1 задание)
+2. AsMatch                  ≈ $ 3      -  (3 задание)
+3. BitAvatar                ≈ $ 0.15   -  (4 задание)
+4. ReadON                   ≈ $ 20     -  (5 задание)
+5. Linea Park - SendingMe   ≈ $ 0.23   -  (6 задание)
 
 Если требуется убрать какие-то модули это можно сделать на 136 строчке:
 functions_list = [money_gun, dmail, mint_nft, readon, checkin] (6,1,2,5,4 задания)
@@ -23,6 +23,7 @@ DELAY_BETWEEN_WALLETS = [60, 180] # Задержка между аккаутам
 
 2 задание: 
 Свапаем ETH-WETH на https://swap.dodoex.io/Gamic ≈ $ 0.5
+
 7 задание: 
 Переходим на сайт https://socialscan.io/campaign/linea-park
 Коннектим кошелек, дискорд, твиттер, вводим любую почту, проходим капчу и получаем возможность зайти на сайт.

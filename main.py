@@ -57,7 +57,7 @@ def execute_contract_transaction(w3, account, contract_tx):
         tx_hash = w3.eth.send_raw_transaction(signed_tx.rawTransaction)
         status = check_status_tx(tx_hash, w3)
         print(
-            f'✅ https://rpc.linea.build/{w3.to_hex(tx_hash)}' if status == 1 else f'❌ https://rpc.linea.build/{w3.to_hex(tx_hash)}')
+            f'✅ https://lineascan.build/tx/{w3.to_hex(tx_hash)}' if status == 1 else f'❌ https://lineascan.build/tx/{w3.to_hex(tx_hash)}')
     except Exception as e:
         print(f"Error executing contract transaction: {e}")
 
